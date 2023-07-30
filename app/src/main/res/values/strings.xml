@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Yusuf Ceylan Bütünleme Projesi</string>
+    <string name="atistirmalik_html_webview">
+ <![CDATA[
+<b>ATIŞTIRMALIK</b>
+
+ <p>Çeşitli marketlerimizdeki onlarca atıştırmalıklardan istediğinizi sepete ekleyebilir çeşitli markalarımıdan hepsini görebilirsiniz</p>
+
+ <b>Çikolata<b/>
+
+ <b>Bisküvi<b/>
+
+ <b>Şeker<b/>
+
+ <b>Kek<b/>
+
+ <b>Milkshake<b/>
+
+ <b>Meyveli Yoğurt<b/>
+
+ <b>Tahıl Gevrek<b/>
+
+ <b>Cips<b/>
+]]>
+</string>
+
+    <string name="bakliyat_html_webview">
+ <![CDATA[
+<b>BAKLİYAT ÜRÜNLERİ</b>
+
+ <p>Her türlü kuru bakliyat malzeelerini burada bulabilirsiniz.</p>
+
+ <b>Kuru Fasulye<b/>
+
+ <b>Nohut<b/>
+
+ <b>Pirinç<b/>
+
+ <b>Mercimek<b/>
+
+ <b>Mısır<b/>
+
+ <b>Barbunya<b/>
+
+ <b>Buğday<b/>
+
+ <b>Yeşil Mercimek<b/>
+]]>
+</string>
+
+    <string name="firin_html_webview">
+ <![CDATA[
+<b>FIRIN</b>
+
+ <p>Her gün taze bir şekilde hazırlanan nefis unlu mamüllerimizi siz değerli müşterilerimiz için sunuyoruz</p>
+
+ <b>Ekmek<b/>
+
+ <b>Kepek Ekmeği<b/>
+
+ <b>Tam Buğday Ekmeği<b/>
+
+ <b>Glutensiz Ekmek<b/>
+
+ <b>Simit<b/>
+
+ <b>Poğaça<b/>
+
+ <b>Kurabiye<b/>
+
+]]>
+</string>
+
+    <string name="sebze_html_webview">
+ <![CDATA[
+<b>SEBZE</b>
+
+ <p>Sebzelerimiz mevsiminde özel olarak sunulur. En ucuz taze sebzeler için lütfen uygulamamıza bakın.</p>
+
+ <b>Domates<b/>
+
+ <b>Biber<b/>
+
+ <b>Patlıcan<b/>
+
+ <b>Marul<b/>
+
+ <b>Ispanak<b/>
+
+ <b>Salatalık<b/>
+
+ <b>Mantar<b/>
+
+ <b>Patates<b/>
+]]>
+</string>
+
+    <string name="meyve_html_webview">
+ <![CDATA[
+<b>MEYVE</b>
+
+ <p>Ülkemizin güzellik abidesi şehirlerinden veya ithal olarak gelen egzotik meyvelerimizi dalından yemiş gibi tazecik oalrak uygumamamızda ve kaliteli manavlarımızda bulabilirsiniz.</p>
+
+ <b>Elma<b/>
+
+ <b>Armut<b/>
+
+ <b>Papaya<b/>
+
+ <b>Mango<b/>
+
+ <b>Muz<b/>
+
+ <b>Hindistan Cevizi<b/>
+
+ <b>Portakal<b/>
+
+ <b>Mandalina<b/>
+]]>
+</string>
+
+</resources>

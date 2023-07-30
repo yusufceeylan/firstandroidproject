@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdPage">
+
+  <Button
+      android:id="@+id/btnMeyve"
+      android:layout_width="378dp"
+      android:layout_height="130dp"
+      android:layout_marginBottom="16dp"
+      android:alpha="0"
+      android:text="Button"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.515"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/btnSebze"
+      android:layout_width="378dp"
+      android:layout_height="130dp"
+      android:layout_marginBottom="156dp"
+      android:alpha="0"
+      android:text="Button"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.484"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/btnBakliyat"
+      android:layout_width="378dp"
+      android:layout_height="130dp"
+      android:layout_marginBottom="456dp"
+      android:alpha="0"
+      android:text="Button"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.484"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/btnFirin"
+      android:layout_width="378dp"
+      android:layout_height="130dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="300dp"
+      android:layout_marginEnd="17dp"
+      android:alpha="0"
+      android:text="Button"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageView
+      android:id="@+id/imgAtistirmalik"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="28dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.086"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/atistirmalik" />
+
+  <TextView
+      android:id="@+id/txtAtistirmalik"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="48dp"
+      android:text="ATIŞTIRMALIKLAR"
+      android:textColor="@color/light_green"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.785"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageView
+      android:id="@+id/imgBakliyat"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="24dp"
+      android:layout_marginTop="57dp"
+      android:layout_marginBottom="80dp"
+      app:layout_constraintBottom_toTopOf="@+id/imgFirin"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imgAtistirmalik"
+      app:layout_constraintVertical_bias="0.0"
+      app:srcCompat="@drawable/bakliyat" />
+
+  <TextView
+      android:id="@+id/txtBakliyat"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="192dp"
+      android:text="BAKLİYAT ÜRÜNLERİ"
+      android:textColor="@color/light_green"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.855"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageView
+      android:id="@+id/imgFirin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="332dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.086"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@drawable/firin" />
+
+  <ImageView
+      android:id="@+id/imgSebze"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="180dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.077"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@drawable/sebze" />
+
+  <ImageView
+      android:id="@+id/imgMeyve"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="48dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.086"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@drawable/meyve" />
+
+  <TextView
+      android:id="@+id/txtFirin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="352dp"
+      android:text="MAHALLE FIRINIM"
+      android:textColor="@color/light_green"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.785"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/txtSebze"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="204dp"
+      android:text="SEBZE"
+      android:textColor="@color/light_green"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.519"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+      android:id="@+id/txtMeyve"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="64dp"
+      android:text="MEYVE"
+      android:textColor="@color/light_green"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.53"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/btnAtistirmalik"
+      android:layout_width="378dp"
+      android:layout_height="130dp"
+      android:layout_marginTop="4dp"
+      android:alpha="0"
+      android:text="Button"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.484"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
